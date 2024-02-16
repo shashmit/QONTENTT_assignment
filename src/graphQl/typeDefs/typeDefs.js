@@ -12,7 +12,7 @@ export const typeDefs = `#graphql
     }
     type Query{
         users: [User]
-        user(id: ID!): User!
+        user(ID: ID!): User!
     }
     type Mutation{
         createUser(userInput: UserInput): User!
